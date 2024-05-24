@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+
+}
+.outil{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imgp:hover{
+    transform: scale(0.9);
+}
+.imgf:hover{
+    transform: scale(0.9);
+}
+.imgc:hover{
+    transform: scale(0.9);
+}
