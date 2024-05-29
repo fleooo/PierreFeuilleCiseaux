@@ -9,10 +9,14 @@
 <body>
     <h1>Pierre Feuille Ciseaux</h1>
     <div class="outil">
-        <img class="imgp" onclick="play(P)" src="/image/Pierre-PNG-Gratuit-Telecharger.png" width="200" alt="P">
-        <img class="imgf" onclick="play(F)" src="/image/maple-leaf-png.webp" width="200" alt="F">
-        <img class="imgc" onclick="play(C)" src="/image/ciseaux.png" width="200" alt="C">
+        <img class="imgp" id='rock'  src="/image/Pierre-PNG-Gratuit-Telecharger.png" width="200" alt="P">
+        <img class="imgc" id="scissors"  src="/image/ciseaux.png" width="200" alt="C">
+        <img class="imgf" id='paper'  src="/image/maple-leaf-png.webp" width="200" alt="F">
     </div>
+    <h2 class="score" id="gameStatus">Selctionnez votre arme! </h2>
+    <h2 class="score" id="gameResult"></h2>
+    <h2 class="score">Score : </h2>
+    <p class="nbrscore" id="gameScore">Moi: 0 | Ordi: 0</p>
     <script src="PFC.js"></script>
 </body>
 </html>
